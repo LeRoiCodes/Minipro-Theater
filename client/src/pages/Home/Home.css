@@ -1,0 +1,46 @@
+.intro{
+    width: 95%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #ffffff;
+}
+.intro_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    /* height: 600px; */
+    /* gap: 12px; */
+    width: 50%;
+}
+.intro_text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    width: 477px;
+    margin-bottom: 32px;
+}
+.intro_text p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    width: 477px;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+.btn_red{
+    padding: 15px 70px;
+    gap: 10px;
+    background: #db5461;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+}
