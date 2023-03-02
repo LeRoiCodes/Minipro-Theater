@@ -1,0 +1,51 @@
+.movie_card{
+    width: 304px !important;
+    height: 411px;
+    background: #f8f7f7;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.movie_card .bg{
+    width: 304px;
+    height: 331px;
+    border-radius: 15px 15px 0 0;
+}
+.movie_card .movie_text{
+    display: flex;
+    color: #2f2f2f;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 10px; */
+    margin-top: 5px;
+}
+.movie_card .movie_text .movie_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.movie_card .movie_text .movie_desc h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.movie_card .movie_text .movie_desc .movie_rating{
+    display: flex;
+    gap: 5px;
+    margin-top: 4px;
+}
+.movie_card .movie_text .movie_desc .movie_rating img{
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+}
+.movie_card .btn_red{
+    padding: 5px 10px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    /* width: 78px;
+    height: 34px; */
+}

@@ -1,0 +1,34 @@
+
+#services h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 15px;
+    color: #f8f7f7;
+    text-align: center;
+}
+#services .container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    /* margin-bottom: 100px; */
+}
+.service_card{
+    width: 304px !important;
+    height: 411px;
+    background: #f8f7f7;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.service_card .bg{
+    width: 304px;
+    height: 331px;
+    border-radius: 15px 15px 0 0;
+}
+.service_card p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2f2f2f;
+    padding-left: 10px;
+}
